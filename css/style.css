@@ -134,12 +134,15 @@
 @media(max-width:991px){
     .carousel-caption {
        
-        left: -38%;
+        left: -40%;
         bottom: 150px;
     }
     .carousel-caption h1 {
         font-size: 2.3rem;
         margin-bottom: 15px
+    }
+    .carousel-caption h3 {
+        max-width: 100px;margin: auto;
     }
     .navbar-light .navbar-nav .nav-link {
        
@@ -253,6 +256,12 @@
   width: 100%
      
  }
+ @media(max-width:771x){
+    .who  .img-content img{
+        height: 500px;
+           
+       }
+ }
 
 
 /************************why********************/
@@ -335,7 +344,7 @@
 }
 @media(max-width:771px ){
     .services .box{
-        width:70%;
+        width:80%;
         margin:15px auto;
        
     
