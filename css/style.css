@@ -92,23 +92,6 @@
  .carousel-indicators > li.active {
     background-color: #1C00A8;
 }
-.carousel-caption {
-    position: absolute;
-    left: -45%;
-    bottom: 300px;
-    right: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    
-}
-.carousel-caption h1 {
-   
-    font-size: 3rem;
-    margin-bottom: 15px
-}
 #mob {
     display: none;
    
@@ -125,36 +108,17 @@
         font-size: 15px
      
     }
-    .carousel-caption {
-        bottom: 200px;
-    }
+
   
 }
 
 @media(max-width:991px){
-    .carousel-caption {
-       
-        left: -40%;
-        bottom: 150px;
-    }
-    .carousel-caption h1 {
-        font-size: 2.3rem;
-        margin-bottom: 15px
-    }
-    .carousel-caption h3 {
-        max-width: 100px;margin: auto;
-    }
     .navbar-light .navbar-nav .nav-link {
        
         margin: 15px 0;
        
      
     } 
-    .carousel-caption * {
-   
-        font-size: 1rem !important ;
-        margin-bottom: 0
-    }
     #mob {
         display: block
     }
@@ -250,6 +214,17 @@
     color: #fff
      
  }
+ @media(max-width:771px){
+    .soical {
+     
+        padding: 0;
+    }
+    .soical > div i{
+        font-size: 20px;
+      
+         
+     }
+ }
  /***********************who *********************/
  
  .who  .img-content img{
@@ -279,7 +254,9 @@
     list-style: none;
     padding: 0;
     padding-top: 30px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
     
 }
 .why ul li{
@@ -353,9 +330,14 @@
 
 /************************************contact**************************/
 .contact {
-    overflow: hidden;
+   overflow: hidden;
     
   }
+  .contact img {
+    width: 100%;
+    
+  }
+
 
 .contact ul {
     list-style: none;
@@ -366,10 +348,7 @@
     .contact ul {
        padding: 25px;
     }
-    .contact svg {
-        height: 250px;
-        width: 100%;
-    }
+    
    
 }
 .contact ul li{
@@ -397,7 +376,7 @@
      background-repeat: no-repeat;
    
      padding-top: 70px;
-     padding-bottom: 30px;
+     padding-bottom: 40px;
      padding-right: 20px;
     overflow: hidden ;
  }
