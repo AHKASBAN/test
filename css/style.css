@@ -356,10 +356,7 @@
     overflow: hidden;
     
   }
-.contact img{
-  width: 100%;
-  
-}
+
 .contact ul {
     list-style: none;
     padding-left: 150px;
@@ -368,6 +365,10 @@
 @media (max-width:771px){
     .contact ul {
        padding: 25px;
+    }
+    .contact svg {
+        height: 250px;
+        width: 100%;
     }
    
 }
