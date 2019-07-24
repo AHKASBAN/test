@@ -226,7 +226,9 @@
      }
  }
  /***********************who *********************/
- 
+ .who {
+     padding: 25px 0
+ }
  .who  .img-content img{
   width: 100%
      
@@ -296,6 +298,7 @@
     border-radius: 25px;
     box-shadow: 5px 5px   #888;
     height: 320px;
+    background-color: #fff
 
 }
 .services .box img {
@@ -348,6 +351,9 @@
     .contact ul {
        padding: 25px;
        margin-bottom: 0
+    }
+    .contact  .col-md-8 img {
+        height: 350px;
     }
     
    
@@ -405,4 +411,23 @@ footer a:hover{
         color: #1C00A8;
           text-decoration: none
           }
+   }
+
+   .back1 {
+       background-image: url('../img/back1.png');
+       background-size: 100%;
+       background-repeat: no-repeat
+   }
+
+   .spot {
+       position: absolute;
+       left: 0;
+       z-index: -10;
+       top:1750px;
+       height: 450px;
+       width: 250px;
+   }
+   .spot img {
+       width: 100%;
+
    }
