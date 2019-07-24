@@ -347,6 +347,7 @@
 @media (max-width:771px){
     .contact ul {
        padding: 25px;
+       margin-bottom: 0
     }
     
    
@@ -391,6 +392,17 @@ footer a:hover{
 
    @media(max-width:771px){
        footer{
-           padding: 25px 0 10px 0!important
+           background-image: none;
+           text-align: center;
+        
+           padding: 5px !important;
        }
+       footer a{
+        color: #1C00A8;
+       
+       }
+       footer a:hover{
+        color: #1C00A8;
+          text-decoration: none
+          }
    }
