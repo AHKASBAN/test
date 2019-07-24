@@ -369,10 +369,7 @@
     .contact ul {
        padding: 25px;
     }
-    .contact img{
-        height: 250px;
-        
-      }
+   
 }
 .contact ul li{
    text-align: left;
@@ -398,7 +395,9 @@
      background-size:100%;
      background-repeat: no-repeat;
    
-     padding: 70px;
+     padding-top: 70px;
+     padding-bottom: 30px;
+     padding-right: 20px;
     overflow: hidden ;
  }
  footer a{
