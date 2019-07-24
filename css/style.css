@@ -134,7 +134,7 @@
 @media(max-width:991px){
     .carousel-caption {
        
-        left: -50%;
+        left: -40%;
         bottom: 170px;
     }
     .carousel-caption h1 {
@@ -253,29 +253,8 @@
   width: 100%
      
  }
- .who  .text-content{
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  font-family: 'Hamah';
-  font-size: 22px
-}
-.who  .text-content h1 {
-    font-size: 50px
-  }
-@media(max-width:771px){
-    .who  .text-content p{
-       
-        font-size: 16px;
-        
-        max-width: 200px;
-        margin-bottom: 0;
 
-      }
-      .who  .text-content h1 {
-          font-size: 20px
-        }
-}
+
 /************************why********************/
 .why {
     text-align: center;
