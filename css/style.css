@@ -1,0 +1,425 @@
+﻿@font-face {
+	font-family: 'Segoe';
+	/*src: url('../fonts/gothic.eot');*/
+    src: local('../fonts/'), 
+   
+     url('../fonts/Segoe\ UI.ttf') format('truetype');
+   /*  url('../fonts/gothic.woff2') format('woff'),
+     url('../fonts/gothic.svg') format('SVG'),
+     url('../fonts/gothic.otf') format('opentype'),  url('../fonts/gothic.woff') format('woff'),
+     url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');*/
+    
+}
+@font-face {
+	font-family: 'Hamah';
+
+    src:  local('../fonts/'), 
+   
+     url('../fonts/Ara\ Hamah\ 1964\ B\ Bold.ttf') format('truetype');
+   /*  url('../fonts/gothic.woff2') format('woff'),
+     url('../fonts/gothic.svg') format('SVG'),
+     url('../fonts/gothic.otf') format('opentype'),  url('../fonts/gothic.woff') format('woff'),
+     url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');*/
+    
+}
+
+
+
+
+/**********************************header******************************/
+.navbar {
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 8px ;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Segoe';
+ 
+}
+.navbar-light .navbar-nav .nav-item:first-of-type .nav-link {
+   margin-right: 0
+ 
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+   
+}
+.navbar form div {
+    border: 0 !important;
+    color: #fff;
+    margin: 0 10px;
+}
+.navbar form div:hover {
+    background-color: transparent
+}
+.navbar form div i{
+   font-size: 30px
+}
+.navbar-toggler {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: 0 !important
+}
+.navbar-toggler  i{
+   color: #fff;
+   font-size: 26px;
+   border: 1px solid #d2d2d2;
+   padding: 5px 10px;
+}
+.carousel-control-prev-icon ,.carousel-control-next-icon {
+    display: none;
+}
+.carousel-control-next , .carousel-control-prev {
+    cursor: context-menu;
+}
+ .carousel-indicators > li {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    left: 55%;
+    top: 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%
+}
+ .carousel-indicators > li.active {
+    background-color: #1C00A8;
+}
+.carousel-caption {
+    position: absolute;
+    left: -45%;
+    bottom: 300px;
+    right: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+.carousel-caption h1 {
+   
+    font-size: 3rem;
+    margin-bottom: 15px
+}
+#mob {
+    display: none;
+   
+    
+}
+.carousel-inner img {
+    height: 650px;
+}
+@media(max-width:1200px){
+    .navbar-light .navbar-nav .nav-link {
+        padding: 5px ;
+        border-radius: 15px;
+        margin: 10px;
+        font-size: 15px
+     
+    }
+    .carousel-caption {
+        bottom: 200px;
+    }
+  
+}
+
+@media(max-width:991px){
+    .carousel-caption {
+       
+        left: -50%;
+        bottom: 170px;
+    }
+    .carousel-caption h1 {
+        font-size: 2.3rem;
+        margin-bottom: 15px
+    }
+    .navbar-light .navbar-nav .nav-link {
+       
+        margin: 15px 0;
+       
+     
+    } 
+    .carousel-caption * {
+   
+        font-size: 1rem !important ;
+        margin-bottom: 0
+    }
+    #mob {
+        display: block
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 0;
+        background-color: black;
+        opacity: .8;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: 25 ;
+        padding: 20px;
+    }
+    
+  
+}
+.search {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 25;
+    display: none;
+}
+
+.search form{
+    margin: 125px auto;
+    background-color: black;
+    width: 70%;
+    opacity: .7;
+    text-align: center;
+    border-radius: 25px
+}
+.search form div:first-of-type{
+   display: block;
+   text-align: right
+}
+ .search form div , .search form button {
+    color: #fff;
+    border: 0;
+    font-size: 25px;
+    background-color: transparent !important
+ }
+ .search form div:hover , .search form button:hover{
+     background-color: transparent
+  }
+  .search form input{
+   background-color: #fff;
+   border: 1px solid transparent;
+   border-radius: 15px;
+   width: 250px;
+   height: 30px;
+   margin-top: 35px ;
+   margin-bottom: 100px
+ }
+ @media(max-width:771px){
+    .search form{
+        margin: 75px auto;
+    }
+    .search form input{
+      
+        width: 200px;
+        height: 30px;
+        margin-top: 15px ;
+        margin-bottom: 50px
+      }
+      .carousel-inner img {
+        height: 400px;
+    }
+ }
+
+
+ /******************************soical*************************/
+ .soical {
+     position: fixed;
+     right: 0;
+     top: 20%;
+     background-image: url('../img/Path\ 1068.png');
+     background-size: cover;
+     padding: 3px;
+     z-index: 10;
+
+ }
+ .soical > div{
+   display:block
+    
+}
+.soical > div i{
+    font-size: 30px;
+    margin: 10px;
+    color: #fff
+     
+ }
+ /***********************who *********************/
+ 
+ .who  .img-content img{
+  width: 100%
+     
+ }
+ .who  .text-content{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-family: 'Hamah';
+  font-size: 22px
+}
+.who  .text-content h1 {
+    font-size: 50px
+  }
+@media(max-width:771px){
+    .who  .text-content p{
+       
+        font-size: 16px;
+        
+        max-width: 200px;
+        margin-bottom: 0;
+
+      }
+      .who  .text-content h1 {
+          font-size: 20px
+        }
+}
+/************************why********************/
+.why {
+    text-align: center;
+    color: #707070;
+    padding: 50px 0;
+    
+}
+.why  > p{
+    font-size: 25px;
+    
+} 
+.why ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 0
+    
+}
+.why ul li{
+    text-align: start;
+    margin: 10px 0;
+}
+.why ul li img{
+    width: 20px ;
+  height: 60px;
+}
+.why ul li h5{
+    text-decoration: underline
+} 
+@media (max-width:771px){
+    .why ul{
+       
+        padding:0 15px ;
+     
+        
+    }
+}
+/**********************************services*****************************/
+.services {
+   padding: 50px 0;
+   overflow: hidden;
+}
+.services h1 {
+    color: #1C00A8;
+    margin-bottom: 15px  ;
+}
+.services .box{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    box-shadow: 5px 5px   #888;
+    height: 320px;
+
+}
+.services .box img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px
+   
+} 
+.services .box p {
+    font-size: 25px;
+    color: #1C00A8
+   
+}
+.services button{
+   background-color: transparent;
+   border: 1px solid #1C00A8;
+   border-radius: 25px;
+  padding:10px;
+  width: 120px;
+  color: #1C00A8;
+  margin-top: 35px;
+  cursor: pointer;
+}
+@media(max-width:771px ){
+    .services .box{
+        width:70%;
+        margin:15px auto;
+       
+    
+    }
+}
+
+/************************************contact**************************/
+.contact {
+    overflow: hidden;
+    
+  }
+.contact img{
+  width: 100%;
+  
+}
+.contact ul {
+    list-style: none;
+    padding-left: 150px;
+    padding-top: 25px
+}
+@media (max-width:771px){
+    .contact ul {
+       padding: 25px;
+    }
+}
+.contact ul li{
+   text-align: left;
+   margin: 10px;
+}
+.contact ul li  h3{ 
+    color: #707070
+ }
+.contact ul li p {
+    display: inline;
+    color: #1C00A8;
+    font-size: 20px
+}
+.contact ul li img{
+    width: 25px;
+    
+
+}
+
+ /***************************footer**********************/
+ footer {
+     background-image: url('../img/Path\ 499.png');
+     background-size:100%;
+     background-repeat: no-repeat;
+   
+     padding: 70px;
+    overflow: hidden ;
+ }
+ footer a{
+ color: #fff;
+
+}
+footer a:hover{
+    color: #fff;
+   text-decoration: none
+   }
+
+   @media(max-width:771px){
+       footer{
+           padding: 25px 0 10px 0!important
+       }
+   }
