@@ -256,9 +256,9 @@
   width: 100%
      
  }
- @media(max-width:771x){
+ @media(max-width:771px){
     .who  .img-content img{
-        height: 500px;
+        height: 450px;
            
        }
  }
@@ -369,6 +369,10 @@
     .contact ul {
        padding: 25px;
     }
+    .contact img{
+        height: 250px;
+        
+      }
 }
 .contact ul li{
    text-align: left;
