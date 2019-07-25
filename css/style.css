@@ -175,20 +175,23 @@
    height: 30px;
    margin-top: 35px ;
    margin-bottom: 100px
- }
+ }    
  @media(max-width:771px){
     .search form{
         margin: 75px auto;
     }
     .search form input{
       
-        width: 200px;
+        width: 150px;
         height: 30px;
         margin-top: 15px ;
         margin-bottom: 50px
       }
       .carousel-inner img {
         height: 400px;
+    }
+    .search form button {
+        padding: 0 5px 10px 5px;
     }
  }
 
