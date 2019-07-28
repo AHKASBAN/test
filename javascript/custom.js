@@ -42,6 +42,7 @@ $(document).ready(function(){
      $( "#goto-who" ).click(function() {
       var who_offset = $('.who img').offset();
       $(window ).scrollTop( who_offset.top );
+      
     });
 
 
@@ -49,19 +50,28 @@ $(document).ready(function(){
       var why_offset = $('.why').offset();
       $(window  ).scrollTop( why_offset.top );
      
+     
     });
 
 
     $( "#goto-services" ).click(function() {
       var services_offset = $('.services').offset();
       $(window  ).scrollTop( services_offset.top );
+      
     });
 
 
     $( "#goto-contact" ).click(function() {
       var contact_offset = $('.contact').offset();
       $(window  ).scrollTop( contact_offset.top );
+     
     
+    });
+
+
+    /**********************************************************scroll back ***********************************************/
+    $(".scroll").click( function() {
+      $(window).scrollTop(0);
     });
 
 
