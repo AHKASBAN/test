@@ -13,6 +13,8 @@ $(document).ready(function(){
        
         $('.carousel-indicators ').toggle();
       });
+
+
       var window_width = $(window).innerWidth();
       if (window_width < 991){
         $( "#open" ).click(function() {
@@ -26,13 +28,42 @@ $(document).ready(function(){
       };
 
 
+    
+     $('.logo').css('left',window_width/4.2);
 
 
 
-     var header_hight = $('header').innerHeight();
-     var who_hight = $('.who').innerHeight();
-     var top_position = header_hight + (who_hight/4);
-     $('.who  .text-content').css('top',top_position);
-     $('.who  .text-content').css('left',window_width/5.7);
+
+     
+     
+     
+    
+
+     $( "#goto-who" ).click(function() {
+      var who_offset = $('.who img').offset();
+      $(window ).scrollTop( who_offset.top );
+    });
+
+
+    $( "#goto-why" ).click(function() {
+      var why_offset = $('.why').offset();
+      $(window  ).scrollTop( why_offset.top );
+     
+    });
+
+
+    $( "#goto-services" ).click(function() {
+      var services_offset = $('.services').offset();
+      $(window  ).scrollTop( services_offset.top );
+    });
+
+
+    $( "#goto-contact" ).click(function() {
+      var contact_offset = $('.contact').offset();
+      $(window  ).scrollTop( contact_offset.top );
+    
+    });
+
+
 
 });

@@ -1,31 +1,4 @@
-﻿@font-face {
-	font-family: 'Segoe';
-	/*src: url('../fonts/gothic.eot');*/
-    src: local('../fonts/'), 
-   
-     url('../fonts/Segoe\ UI.ttf') format('truetype');
-   /*  url('../fonts/gothic.woff2') format('woff'),
-     url('../fonts/gothic.svg') format('SVG'),
-     url('../fonts/gothic.otf') format('opentype'),  url('../fonts/gothic.woff') format('woff'),
-     url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');*/
-    
-}
-@font-face {
-	font-family: 'Hamah';
-
-    src:  local('../fonts/'), 
-   
-     url('../fonts/Ara\ Hamah\ 1964\ B\ Bold.ttf') format('truetype');
-   /*  url('../fonts/gothic.woff2') format('woff'),
-     url('../fonts/gothic.svg') format('SVG'),
-     url('../fonts/gothic.otf') format('opentype'),  url('../fonts/gothic.woff') format('woff'),
-     url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');*/
-    
-}
-
-
-
-
+﻿
 /**********************************header******************************/
 .navbar {
     position: absolute;
@@ -34,6 +7,7 @@
   right: 0;
   z-index: 10;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     padding: 8px ;
@@ -41,7 +15,7 @@
     border-radius: 15px;
     margin: 15px;
     font-size: 18px;
-    font-family: 'Segoe';
+    cursor: pointer;
  
 }
 .navbar-light .navbar-nav .nav-item:first-of-type .nav-link {
@@ -74,6 +48,28 @@
    border: 1px solid #d2d2d2;
    padding: 5px 10px;
 }
+.logo {
+    position: absolute;
+    top: 10px;
+    width: 8vw;
+    
+}
+.logo a {
+    cursor: pointer;
+}
+
+
+@media(max-width:771px){
+    .logo {
+      
+        width: 10vw;
+        
+    }
+}
+.logo img{
+    width: 100%;
+    
+}
 .carousel-control-prev-icon ,.carousel-control-next-icon {
     display: none;
 }
@@ -97,8 +93,13 @@
    
     
 }
-.carousel-inner img {
-    height: 650px;
+.top-part {
+    position: absolute;
+    top: -1px;
+    width: 68%;
+}
+.top-part img{
+    width: 100%;
 }
 @media(max-width:1200px){
     .navbar-light .navbar-nav .nav-link {
@@ -188,7 +189,7 @@
         margin-bottom: 50px
       }
       .carousel-inner img {
-        height: 400px;
+        height: 380px;
     }
     .search form button {
         padding: 0 5px 5px 5px;
@@ -200,7 +201,7 @@
  .soical {
      position: fixed;
      right: 0;
-     top: 20%;
+     top: 30%;
      background-image: url('../img/Path\ 1068.png');
      background-size: cover;
      padding: 3px;
@@ -230,7 +231,7 @@
  }
  /***********************who *********************/
  .who {
-     padding: 25px 0
+     padding: 50px 
  }
  .who  .img-content img{
   width: 100%
@@ -241,6 +242,9 @@
         height: 450px;
            
        }
+       .who {
+        padding: 25px 
+    }
  }
 
 
@@ -281,6 +285,10 @@
         padding:0 15px ;
      
         
+    }
+    .why ul li img{
+      
+      height: 40px;
     }
 }
 /**********************************services*****************************/
@@ -380,40 +388,41 @@
 }
 
  /***************************footer**********************/
- footer {
-     background-image: url('../img/Path\ 499.png');
-     background-size:100%;
-     background-repeat: no-repeat;
-   
-     padding-top: 70px;
-     padding-bottom: 40px;
-     padding-right: 20px;
-    overflow: hidden ;
- }
+
  footer a{
  color: #fff;
+ position: relative;
+ top: 100px;
+ right: 50px;
 
 }
 footer a:hover{
     color: #fff;
-   text-decoration: none
+   text-decoration: none;
    }
+   .footer-img {
+position: relative;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: -10;
 
+   }
+   .footer-img img{
+  
+    width: 100%;
+       }
    @media(max-width:771px){
-       footer{
-           background-image: none;
-           text-align: center;
-        
-           padding: 5px !important;
-       }
-       footer a{
-        color: #1C00A8;
-       
-       }
-       footer a:hover{
-        color: #1C00A8;
-          text-decoration: none
-          }
+    
+
+          footer a{
+            color: #fff;
+            position: relative;
+            top: 50px;
+            right: 10px;
+            font-size: 14px
+           
+           }
    }
 
    .back1 {
