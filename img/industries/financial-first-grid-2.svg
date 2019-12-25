@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.01 32" id="svg27">
+  <defs id="defs7">
+    <style id="style2">
+      .cls-3,.cls-4{fill:none;stroke:#ff762a;stroke-miterlimit:10;stroke-width:2px}.cls-4{stroke-dasharray:2 2}
+    </style>
+  </defs>
+  <g id="g849">
+    <path class="cls-3" d="M20 18v7a2 2 0 0 0 4 0v-7a4 4 0 0 0-8 0v7a6 6 0 0 0 12 0v-7" id="path11" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10"></path>
+    <path class="cls-3" id="polyline13" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M13 31H1V1h16l8 8v3"></path>
+    <path class="cls-3" id="polyline15" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M17 1v8h8"></path>
+    <path class="cls-3" d="M7 27a2 2 0 0 0 2-2v-4H5v4a2 2 0 0 0 2 2z" id="path17" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10"></path>
+    <path class="cls-4" id="line19" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2,2" d="M5.01 1.97v15"></path>
+    <path class="cls-4" id="line21" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2,2" d="M7.01 3.97v14.2"></path>
+  </g>
+</svg>

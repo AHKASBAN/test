@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 28" id="svg25">
+  <defs id="defs7">
+    <style id="style2">
+      .cls-3{fill:none;stroke:#ff762a;stroke-miterlimit:10;stroke-width:2px}
+    </style>
+  </defs>
+  <path id="rect11" class="cls-3" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M1 1h30v26H1z"></path>
+  <path id="line13" class="cls-3" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M31 7H1"></path>
+  <path id="line15" class="cls-3" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M4 4h2"></path>
+  <path id="line17" class="cls-3" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M8 4h2"></path>
+  <path id="line19" class="cls-3" fill="none" stroke="#ff7800" stroke-width="2" stroke-miterlimit="10" d="M12 4h2"></path>
+</svg>
