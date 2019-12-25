@@ -1,0 +1,228 @@
+/* style for pricing pages */
+.Quote .form {
+    background-color: #F7F7F7;
+    border: 1px solid;
+    border-color: #dadada;
+    box-shadow: 0 2px 3px 0 #afafaf;
+    padding: 28px;
+    margin-bottom: 50px;
+}
+.Quote .form  .same{
+  width: 220px;
+  padding:  6px 12px;
+  border: 1px solid #ccc !important;
+    border-radius: 7px !important;
+    margin: 10px 0;
+    height: 36px;
+    align-items: center;
+}
+.Quote .form  input[type=radio]{
+ margin-top: 2px;
+ margin-right: 5px;
+  }
+  .Quote .form  textarea {
+    height: 75px;
+    padding: 15px;
+  }
+.no-margin {
+    margin: 0;
+}
+.Quote .form  button {
+    padding: 7px;
+}
+.Quote .form  hr  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+    width: 100%;
+}
+.banner-price {
+    text-align: center;
+    padding: 125px 0;
+    background: #FDE7CF;
+    color: #444;
+}
+.like-select {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 0 5px;
+    font-size: .875rem;
+    padding: .25rem .5rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    border: 1px solid #929292;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #929292;
+}
+.instant-grid {
+    margin: 50px 0;
+}
+.instant-grid .flage-wraper {
+    background-color: #fff;
+    height: 250px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #444;
+    margin-top: 1px;
+    position: absolute;
+    display: none;
+}
+.instant-grid .flage-wraper .flage-content img {
+    width: 16px;
+}
+.instant-grid .flage-wraper .flage-content span{
+    font-weight: 400;
+    color: #444;
+    text-transform: capitalize;
+}
+.instant-grid .flage-wraper .flage-content:hover {
+    background: #081953;
+    cursor: pointer;
+   
+}
+.instant-grid .flage-wraper .flage-content:hover span{
+   
+    color: #fff;
+}
+.instant-grid .flage-wraper .flage-content {
+    padding: 0 15px;
+}
+.like-select i{
+    margin-bottom: 5px;
+ }
+ .instant-grid label {
+margin-bottom: 0;
+margin-top: 10px;
+font-weight: 500;
+ }
+ .like-select:hover{
+    background: #929292;
+    color: #fff;
+ }
+.like-select img{
+   width: 16px;
+}
+.arrow-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instant-grid-part {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.grid-head {
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 20px 0;
+    color: #373635;
+    font-size: 18px;
+    background: #fff;
+}
+.grid-price {
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    height: 170px;
+    color: #373635;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.grid-price  h1{
+    color: #ff8000;
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.grid-price .orange-button {
+    background: transparent;
+    border: 1px solid #ff8000;
+    cursor: pointer;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.grid-price .orange-button a{
+    font-weight: 700;
+    color: #444;
+}
+.grid-price .orange-button:hover {
+    background: #ff8000;
+}
+.grid-price .orange-button:hover  a {
+    color: #fff;
+}
+.grid-content {
+    font-size: 16px;
+    font-weight: bold;
+    color: #373635;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+.grid-footer {
+    font-size: 14px;
+    color: #373635;
+    text-align: center ;
+    padding: 20px 0;
+    text-transform: capitalize;
+    background: #fff;
+}
+.grid-price .like-select {
+width: 280px;
+padding: 0 5px;
+}
+.grid-price .like-select img{
+   width: 32px;
+}
+.grid-price .like-select:hover img{
+    filter: brightness(0) invert(1);
+}
+.grid-dropdown  {
+    background-color: #fff;
+    height: 250px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #444;
+    margin-top: 1px;
+    position: absolute;
+    width: 280px;
+   display: none;
+}
+.grid-dropdown img {
+    width: 24px;
+}
+.grid-dropdown .grid-dropdown-item:hover img {
+    filter: brightness(0) invert(1);
+}
+.grid-dropdown span{
+    font-weight: 400;
+    color: #444;
+    text-transform: capitalize;
+}
+.grid-dropdown  .grid-dropdown-item:hover {
+    background: #081953;
+    cursor: pointer;
+   
+}
+.grid-dropdown  .grid-dropdown-item{
+   text-align: start;
+   padding:7px 15px ;
+   
+}
+.grid-dropdown  .grid-dropdown-item:hover span{
+   
+    color: #fff;
+}
+.dropdown-wraper {
+    margin: auto;
+    width: 280px;
+}

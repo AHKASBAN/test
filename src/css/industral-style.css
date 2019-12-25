@@ -1,0 +1,261 @@
+﻿/* style for all indusral page */
+/***********banner********************/
+.banner {
+    background-image: url('../../img/industries/industries_1_7_0.jpg') ;
+    background-size:  cover;
+    padding: 35px 0;
+}
+.banner h1{
+    font-size: 2.5rem;
+}
+.banner p{
+    font-size: 14px;
+    max-width: 50%;
+    margin: 15px 0;
+    line-height: 1.7;
+}
+.banner button{
+    padding: 10px;
+    margin: 15px 0;
+}
+@media(max-width:991px){
+    .banner p{
+        max-width: 90%;
+    }
+}
+
+/******************************paragraph***********/
+.paragraph {
+    background: #F7F7F7;
+    text-align: center;
+    padding: 50px 0;
+   
+}
+.paragraph h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 130%;
+}
+/*********************img-text*******************/
+.img-text .row{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+.img-text .row h1 {
+  margin: 30px 0;
+  font-size: 2rem;
+  font-weight: 500;
+    line-height: 1.2;
+} 
+.img-text .row img {
+    width: 100%;
+} 
+.img-text .row h1 img {
+    width: 35px;
+} 
+.img-text .row p {
+    line-height: 170%;
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+.img-text .row a {
+    text-transform: capitalize;
+    color: #ff762a;
+} 
+@media(max-width:991px){
+    .img-text .row{
+        margin-top: 40px ;
+        margin-bottom: 40px;
+    }
+    .img-text .row img {
+       margin: 15px 0;
+    } 
+
+}
+
+/*************************legal***********************/
+.img-text-edit .row {
+    margin-top: 0;
+}
+.img-text-edit .row button{
+   padding: 10px;
+   margin-top: 25px;
+}
+.img-text-edit .row h1{
+   font-size: 40px;
+   font-weight: 500;
+    line-height: 1.1;
+    text-transform: capitalize;
+ }
+.img-text-edit .row img{
+   height: 345px;
+ }
+ .img-text-edit  .margin-left {
+    padding-left: 130px;
+}
+@media (max-width:991px){
+    .img-text-edit  .margin-left {
+        padding:0 40px ;
+    }
+    .img-text-edit .row button{
+        margin-bottom: 25px;
+     }
+}
+.title {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.first-grid img {
+    width: 40px !important;
+    height:  40px !important;
+    margin-top: 1.2rem;
+    margin-bottom: .8rem;
+    margin-right: 10px;
+}
+
+.first-grid h2 {
+    color: #ff762a;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: .8rem;
+    padding-left: 30px;
+}
+.first-grid p {
+ 
+   padding-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 175%;
+  
+    font-size: 14px;
+}
+.first-grid-head {
+   height: 75px;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.first-grid-body {
+    padding: 25px;
+ }
+ .first-grid {
+     max-width: 77%;
+     margin: 30px auto;
+ }
+ @media(max-width:991px){
+    .first-grid {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .first-grid-body {
+        padding: 15px;
+        
+     }
+     .first-grid-head {
+        height: 50px;
+     
+    }
+ }
+ .second-grid .row > div{
+ align-items: center;
+ display: flex;
+justify-content: center;
+ }
+ .second-grid h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+.second-grid img{
+ width: 100px;
+ margin: 20px 0;
+
+}
+.second-grid  .second-grid-body{
+   margin: 50px 0;
+   
+   }
+   .second-grid  {
+    margin: 50px 0;
+    
+    }
+
+.bar {
+    padding: 50px 0;
+    background: #004DD9;
+
+}
+.bar h1{
+  color: #fff;
+  font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 70%;
+    margin: auto;
+
+}
+.bar .button{
+   padding: 5px;
+   background: #fff;
+  margin: 35px 0;
+   border: transparent 1px solid;
+  border-radius: 7px;
+  width: 180px;
+
+}
+.bar .button a{
+    color: #004DD9;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+ }
+ .bar .button:hover{
+    background: #004DD9;
+
+    border: #fff 1px solid;
+ }
+ .bar .button:hover a{
+  color: #fff;
+ }
+ .bar .button a:hover{
+     text-decoration: none;
+  }
+
+  .modal-header .avatar {
+    text-align: center;
+    position: relative;
+    left:42%;
+    bottom: 60px;
+}
+.modal-header .avatar img{
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+}
+.modal-header .avatar h5{
+ text-transform: capitalize;
+ margin-top: 15px
+}
+.modal-header  .close i{
+    color: #ff762a ;
+ background: #fff;
+ border-radius: 50%;
+ font-size: 30px;
+ filter: brightness(100%);
+   
+}
+.modal-header  .close {
+   position: relative;
+   left: 30px;
+   bottom: 75px;
+}
+.orange-button a {
+    color: #fff !important;
+}
+.gray-button a {
+    color: #000 !important;
+}

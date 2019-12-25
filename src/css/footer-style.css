@@ -1,0 +1,323 @@
+﻿/* style for footer pages */
+.slider-footer-page ul {
+    list-style: none;
+    padding: 0;
+}
+.slider-footer-page ul li  {
+    border: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+    padding:5px 15px ;
+}
+.slider-footer-page ul li.active  {
+    background-color: #fff;
+}
+.slider-footer-page ul li:hover  {
+    background-color: #fff;
+}
+.slider-footer-page ul li a {
+    color: black;
+    display: block;
+    font-size: 14px;
+}
+.slider-footer-page ul li:hover a {
+    color: #ff8000;
+    text-decoration: none;
+}
+.slider-footer-page ul li.active a {
+    color: #ff8000;
+}
+.slider-footer-page  {
+    padding: 15px 0;
+}
+.color-blue{
+    color: #448ccb;
+}
+.slider-footer-page  h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.content-footer-pages {
+    padding: 25px 0;
+}
+.content-footer-pages .head-blog  .row{
+   margin: 10px 0;
+   align-items: center;
+}
+.content-footer-pages  .head-blog .row span{
+    font-style: italic;
+    color: #448ccb;
+    margin: 0 10px;
+ }
+.content-footer-pages  h1{
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.content-footer-pages .head-blog  h1 a{
+   color: black;
+   text-decoration: none;
+}
+.content-footer-pages .head-blog p {
+   margin: 25px 0;
+}
+.content-footer-pages .head-blog .read-more {
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+ }
+ .content-footer-pages .head-blog .read-more  a{
+   color: #ff8000;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-style: italic;
+   font-weight: 500;
+ }
+.other-blog h3 a{
+color: black;
+font-size: 20px;
+text-decoration: none;
+font-weight: 600;
+}
+.other-blog h3 {
+
+    margin-bottom: 15px;
+}
+.other-blog .row{
+    margin: 25px 0;
+    align-items: center;
+ }
+ .other-blog .row span{
+     font-style: italic;
+     color: #448ccb;
+     margin: 0 10px;
+}
+.other-blog p{
+
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.online-banner {
+    background: url('../../img/footer-pages/brochure-top-bg.jpg');
+    background-size: cover;
+    padding: 100px 0;
+}
+.online-banner h1{
+   color: #fff;
+   font-size: 60px;
+   margin-bottom: 25px;
+}
+.online-second-grid {
+    text-align: center;
+    padding: 10px 0;
+    margin: 50px 0;
+ }
+.online-second-grid h1{
+     text-align: center;
+     font-weight: 300;
+     font-size: 2.2rem;
+     margin-bottom: 15px;
+     line-height: 1.2;
+  }
+.online-second-grid img {
+     width: 100px;
+     margin: 20px 0;
+  }
+.online-second-grid .row > div{
+     align-items: center;
+     display: flex;
+    justify-content: center;
+}
+.online-forth-grid   {
+    padding-top: 50px;
+    font-weight: 300;
+}
+.online-forth-grid  h1 {
+    font-weight: 300;
+}
+.online-forth-grid  h4 {
+    font-weight: 300;
+    margin: 20px 0;
+}
+.online-forth-grid  button{
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px 0 rgba(255,128,0,.5);
+}
+@media(max-width:991px){
+    .online-banner {
+        padding: 30px 0;
+        background-size: 100% 100%;
+    }
+    .online-banner h1{
+       font-size: 30px;
+    }
+}
+.orange-bar {
+    background:#ff762a;
+    padding: 40px 0;
+    color: #fff;
+}
+.orange-bar  hr{
+    border: 1px solid #fff;
+    width: 75px;
+}
+.any-may {
+    font-weight: 300;
+    font-style: italic;
+    color: #444;
+    font-size: 16px !important;
+    margin-top: 15px;
+}
+.online-thrid-grid {
+    background: #F7F7F7;
+    padding: 30px 0;
+}
+.online-thrid-grid h3{
+    margin: 20px 0;
+}
+.online-thrid-grid p {
+    margin: 15px 0;
+    font-size: 14px;
+}
+.online-thrid-grid p strong{
+    font-size: 16px;
+}
+.online-thrid-grid a{
+    color: #ff762a;
+}
+.online-forth-section {
+    padding: 30px 0;
+}
+.online-forth-section h3{
+    margin: 20px 0;
+}
+.online-forth-section p {
+    font-size: 14px;
+}
+.online-forth-section h5{
+    color: #ff762a;
+}
+.online-fifth-section {
+    background: url('../../img/footer-pages/brochure-iso-bg.jpg');
+    background-size: cover;
+    padding: 30px 0;
+    color: #fff;
+}
+.page-of-article h4 {
+    margin: 15px 0;
+    color: #ff762a;
+}
+.page-of-article span {
+   font-style: italic;
+}
+@media(max-width:991px){
+    .page-of-article img{
+        width: 100%;
+    }
+}
+.banner-affiliate {
+    background: url('../../img/footer-pages/header-bg.png');
+    background-size: cover;
+    padding: 30px 0;
+    color: #fff;
+    position: relative;
+    height: 500px;
+    
+
+}
+.banner-affiliate .banner-affiliate-content {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    
+}
+.banner-affiliate .banner-affiliate-content h5{
+    font-size: 2em;
+    line-height: 1.5;
+    
+}
+.banner-affiliate .banner-affiliate-content  h1{
+    font-size: 50px;
+    margin: .5rem 0;
+    
+}
+.banner-affiliate .banner-affiliate-content p{
+    line-height: 1.5;
+    margin: 20px 0;
+    
+}
+.gird-part {
+    position: relative;
+}
+.gird-part img{
+    margin-bottom: 15px;
+}
+.gird-part .dot{
+    position: absolute;
+    background: #fff;
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    border:4px solid #ced4da;
+    margin: auto;
+    left: calc(50% - 10px);
+    top: 100px;
+    z-index: 10;
+}
+.gird-part .line-vertical{
+    position: absolute;
+    height: 4px;
+    background: #ced4da;
+    left: calc(50% + 10px);
+    top: 108px;
+    width: 250px;
+}
+.gird-part p{
+    margin-top: 40px;
+}
+@media(max-width:991px){
+    .gird-part .dot{
+       display: none
+    }
+    .gird-part .line-vertical{
+        display: none
+    }
+}
+.affiliate-grid {
+    padding: 25px 0;
+}
+.affiliate-grid h3{
+    color: #448ccb!important;
+    margin: 15px 0;
+}
+.affiliate-grid p{
+    margin: 15px 0;
+}
+.affiliate-grid  .embeded button{
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+.affiliate-grid  .embeded textarea{
+    width: 100%;
+    margin-top: 25px;
+    height: 100px;
+  }
+  .affiliate-grid  .embeded .row{
+    margin: 0;
+  }
+  .terms-part  {
+   margin-top: 25px;
+}
+.terms-part .ul-number {
+    list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.terms-part .ul-number li {
+    counter-increment: my-awesome-counter;
+    margin-top: 15px;
+}
+.terms-part .ul-number li::before {
+    content: counter(my-awesome-counter) ". ";
+}
