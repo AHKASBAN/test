@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#444445" stroke-linecap="round" stroke-width=".542">
+    <path fill="#fbffff" d="M170.223 137.993h9.822v9.822h-9.822z" paint-order="fill markers stroke" transform="scale(3.7727 2.44628) rotate(45 236.475 -111.458)"></path>
+    <path fill="#cdcdcd" d="M168.257 136.298h9.822v9.822h-9.822z" paint-order="fill markers stroke" transform="scale(3.7727 2.44628) rotate(45 236.475 -111.458)"></path>
+    <path fill="#a1c6e6" d="M166.206 134.099h9.822v9.822h-9.822z" paint-order="fill markers stroke" transform="scale(3.7727 2.44628) rotate(45 236.475 -111.458)"></path>
+    <path fill="#ff7800" fill-opacity=".651" d="M164.049 131.718h9.822v9.822h-9.822z" paint-order="fill markers stroke" transform="scale(3.7727 2.44628) rotate(45 236.475 -111.458)"></path>
+  </g>
+</svg>
