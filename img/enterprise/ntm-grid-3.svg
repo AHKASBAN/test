@@ -1,0 +1,17 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg1741" version="1.1" viewBox="0 0 28 31.999998" height="31.999998" width="28">
+  <defs id="defs1735"></defs>
+  <metadata id="metadata1738">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g transform="translate(-290.3613,-112.85)" id="layer1">
+    <path id="path1783-9" transform="translate(290.3613,112.85)" d="M 3,0 V 20.373047 A 3.6783402,3.6783402 0 0 0 0.3203125,23.908203 3.6783402,3.6783402 0 0 0 3,27.447266 V 32 H 5 V 27.445312 A 3.6783402,3.6783402 0 0 0 7.6796875,23.908203 3.6783402,3.6783402 0 0 0 5,20.369141 V 0 Z M 4,22.167969 A 1.7402897,1.7402897 0 0 1 5.7402344,23.908203 1.7402897,1.7402897 0 0 1 4,25.648438 1.7402897,1.7402897 0 0 1 2.2597656,23.908203 1.7402897,1.7402897 0 0 1 4,22.167969 Z" style="opacity:1;vector-effect:none;fill:#ff7800;fill-opacity:1;stroke:none;stroke-width:1.77193177;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"></path>
+    <path id="path1783-9-2" transform="translate(290.3613,112.85)" d="M 23,0 V 16.263672 A 3.6783402,3.6783402 0 0 0 20.320312,19.798828 3.6783402,3.6783402 0 0 0 23,23.337891 V 32 h 2 V 23.335938 A 3.6783402,3.6783402 0 0 0 27.679688,19.798828 3.6783402,3.6783402 0 0 0 25,16.259766 V 0 Z m 1,18.058594 A 1.7402897,1.7402897 0 0 1 25.740234,19.798828 1.7402897,1.7402897 0 0 1 24,21.539062 1.7402897,1.7402897 0 0 1 22.259766,19.798828 1.7402897,1.7402897 0 0 1 24,18.058594 Z" style="opacity:1;vector-effect:none;fill:#ff7800;fill-opacity:1;stroke:none;stroke-width:1.77193177;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"></path>
+    <path id="path1783-9-2-7" transform="translate(290.3613,112.85)" d="M 13,0 V 3.3828125 A 3.6783402,3.6783402 0 0 0 10.320312,6.9179688 3.6783402,3.6783402 0 0 0 13,10.457031 V 32 h 2 V 10.455078 A 3.6783402,3.6783402 0 0 0 17.679688,6.9179688 3.6783402,3.6783402 0 0 0 15,3.3808594 V 0 Z m 1,5.1796875 A 1.7402897,1.7402897 0 0 1 15.740234,6.9179688 1.7402897,1.7402897 0 0 1 14,8.6601562 1.7402897,1.7402897 0 0 1 12.259766,6.9179688 1.7402897,1.7402897 0 0 1 14,5.1796875 Z" style="opacity:1;vector-effect:none;fill:#ff7800;fill-opacity:1;stroke:none;stroke-width:1.77193177;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"></path>
+  </g>
+</svg>
